@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+<head>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="Course.js"></script>
+  
+  <link  rel="stylesheet" href="styles.css"> 
+  <style>
+   
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+}
+
+
+
+.card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card {
+    flex:0 1 27%;
+}
+.cards {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.card header{
+
+ background-color: pink;
+}
+.card details{
+  text-align: center;
+  color: red;
+}
+body {
+      color: #000;
+      background: lightblue;
+      height: 100vh;
+      text-align: center;
+   }
+   table {
+      margin: 2rem auto;
+      border: separate;
+      border :space;
+      border: 2px solid black;
+    
+   }
+   caption {
+      color: #db133a;
+   }
+   .btn {
+      background: #db133a;
+      border: none;
+      height: 2rem;
+      border-radius: 2px;
+      width: 40%;
+      display: block;
+      color: #fff;
+      outline: none;
+      cursor: pointer;
+      margin: 1rem auto;
+   }
+   .show {
+      font-size: 1.2rem;
+   }
+  </style>
+</head>
+
+<body class="bg-green-700">  
+  
+ 
+  <nav>          
+   <div class="flex space-x-2 justify-center">
+      <div>
+        <h1 class="text-2xl font-bold mt-8 mb-5">Welcome to Our Christmas Store</h1>  
+        <a href="index.html"> <button type="button" class=" border-4 border-sky-500 color  inline-block px-6 py-2.5 bg-blue-600 text-black font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-700  focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 focus:shadow-lg  transition duration-150 ease-in-out">Home</a></button>
+        <a href="contact.html"><button type="button" class=" border-4 border-sky-500 color inline-block px-6 py-2.5 bg-purple-600 text-black font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-purple-700 hover:shadow-lg focus:bg-purple-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-purple-800 active:shadow-lg transition duration-150 ease-in-out">Contact us</a></button>
+        <a href="deals.html"> <button type="button" class=" border-4 border-sky-500 color inline-block px-6 py-2.5 bg-red-700 text-black font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-700 active:shadow-lg transition duration-150 ease-in-out">Today&apos;s Deal</a></button>  
+      </div>
+    </div>
+     </nav>
+    </div>
+    <header>
+      <h1 class="flex space-x-2 justify-center">Product Deals</h1>
+      <h5 class="text-gray-900 text-xl font-medium mb-2 flex space-x-2 justify-center">Shop Our Best Holiday Deals Online</h5>
+
+   
+    <div class="flex space-x-2 justify-center">
+    <section>
+      
+     
+<div class="cards">
+  <article class="card">
+      <header>
+        
+          <h2>***Christmas tree***</h2>
+          <p>there are  diffrent  types and colors available</p><br>
+          <details>
+            <summary>element Detal</summary>
+            <p>The trees that are available for the discount are limited. We also have multiple colors and sizes and free delivery for purchases up to 50$. </p>
+          </details>
+          <h2>price droped from 100$</h2>
+      </header>    
+      <img src= "https://ae01.alicdn.com/kf/HTB1FFIzDNGYBuNjy0Fnq6x5lpXae/5pcs-Mini-Christmas-Tree-Stick-White-5-size-Desktop-Small-Christmas-Little-Tree-arbol-artificial-For.jpg" alt=""/>
+      <div class="content">
+        <button class=" border-4 border-sky-500 color  inline-block px-6 py-2.5 bg-blue-600 text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"> 50$.</button>
+      </div>
+          
+  </article>
+          
+   <article class="card">
+      <header>
+        <h3>***lights*** </h3>  
+        <p>there are diffrent shapes and colors available</p><br> 
+        <details>
+          <summary>element Detal</summary>
+          <p>The lights that are available for the discount are limited. We also have multiple colors and shapes and free delivery for purchases up to 30$.</p>
+        </details>
+        <p> lights price droped from 40$ to</p>
+      </header>    
+      <img src="https://i5.walmartimages.com/asr/10ccba91-2e0f-4336-bb8b-b14b3c2fa892_1.96490b1fccf83908cd46fb65b2913a49.jpeg"alt=""/>
+      <div class="content">
+        <button class=" border-4 border-sky-500 color  inline-block px-6 py-2.5 bg-blue-600 text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"> 10$.</button>
+      </div>
+      
+  </article>
+          
+  <article class="card">
+      <header>  
+        <h3>***candles*** </h3>   
+        <p>there are diffrent shapes and colors available</p><br> 
+        <details>
+          <summary>element Detal</summary>
+          <p> <p>The candles that are available for the discount are limited. We also have multiple colors and shapes and free delivery for purchases up to 30$.</p></p> 
+        </details> 
+        <p>candles price droped from 20$ to </p>
+      </header>
+      <img src="https://th.bing.com/th/id/OIP.mDMJ4Wp59iK6Ds1Fm_BjRwHaHa?pid=ImgDet&rs=1" alt=""/>
+      <div class="content">
+        <button class=" border-4 border-sky-500 color  inline-block px-6 py-2.5 bg-blue-600 text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out"> 7$.</button>
+      </div>
+    </article>  
+ 
+</div>
+  
+<header><br>
+  <h3 class="flex space-x-2 justify-center">Best Holiday Deals</h3>
+
+<article>
+  <div  class="flex space-x-2 justify-center">
+  
+  <table class="border-separate border-spacing-2 border border-slate-500  bg-blue-300">
+    <thead>
+      <tr>
+        <th class="border border-slate-600 ...">the name of the items</th>
+        <th class="border border-slate-600 ...">original price</th>
+        <th class="border border-slate-600 ...">today&apos;s deals</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="border border-slate-700 ...">Christmas tree</td>
+        <td class="border border-slate-700 ...">$100</td>
+        <td class="border border-slate-700 ...">$50</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-700 ...">lights</td>
+        <td class="border border-slate-700 ...">$40</td>
+        <td class="border border-slate-700 ...">$10</td>
+      </tr>
+      <tr>
+        <td class="border border-slate-700 ...">candles</td>
+        <td class="border border-slate-700 ...">$35</td>
+        <td class="border border-slate-700 ...">$7</td>
+      </tr>
+    </tbody>
+  </div>
+  </table> 
+</header>
+<h1>adding more Row in the  Table</h1>
+
+<button onclick="create()" class="btn">Create Row</button>
+<script>
+  function create() {
+      var table = document.querySelector('table');
+      var tableRow = table.insertRow(1);
+      tableRow.innerHTML = "<td>toys</td><td>$80</td><td>$20</td>";
+   }
+</script>
+
+
+
+            <br><br><foote  class="fixed inset-x-0 bottom-0"/><h2 class="text-2xl flex space-x-2 justify-center">© 2023 Maisa Emneina</h2></footer>
+          
+</body>
